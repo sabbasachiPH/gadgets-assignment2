@@ -1,0 +1,30 @@
+.container{
+    margin-bottom: 20px;
+
+}
+.banner{
+    padding: 10px 40px;
+    background: grey;
+}
+.navbar-brand .img-fluid{
+    height: 70px;
+}
+.button-buy-now{
+    width: 150px;
+}
+ .carousel-indicators .active{
+    background-color: goldenrod;
+}
+.see-all {
+    color: rgba(241, 175, 7, 0.979);
+    font-weight: bold;
+}
+.card-footer, .card{
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    box-shadow: 5px 5px 30px gray;
+}
+.card:hover {
+    box-shadow: 5px 5px 20px navy;
+}

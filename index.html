@@ -10,25 +10,166 @@
 <body>
     <!--Nav Bar-->
     <div class="container">
-        <nav class="navbar navbar-light fixed-top bg-light">
+        <nav class="navbar navber-text navbar-expand-lg navbar-light bg-light d-flex justify-content-between ">
             <a class="navbar-brand">
-                <img src="images/logo.png" alt="Logo">
+                <img class="img-fluid" src="images/logo.png" alt="Logo">
             </a>
-            <form class="form-inline">
-             <ul><a href="#home">Home</a></ul>
-             <ul><a href="#product">Product</a></ul>
-             <ul><a href="#aboutus">About Us</a></ul>
-             <ul><a href="#contact">Contact</a></ul>
+            <form class="form-inline text-muted">
+             <ul><a href="#home" class="text-reset">Home</a></ul>
+             <ul><a href="#product" class="text-reset">Product</a></ul>
+             <ul><a href="#aboutus" class="text-reset">About Us</a></ul>
+             <ul><a href="#contact" class="text-reset">Contact</a></ul>
             </form>
           </nav>
     </div>
+    <!--Banner-->
+    <div class="container banner">
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-md-6">
+                                <h1>Mac Book Pro>two</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eligendi ipsa cupiditate inventore accusantium quas quos architecto. Architecto quasi repellendus, molestiae vitae adipisci repudiandae, consequatur libero fugiat ipsum atque quae.</p>
+                                <button class="btn btn-dark button-buy-now"> <span class="glyphicon glyphicon-arrow-right">BUY NOW</span> </button>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/banner-products/product-1.png" class="d-block w-100" alt="product-1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-md-6 ">
+                                <h1>Mac Book Pro</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eligendi ipsa cupiditate inventore accusantium quas quos architecto. Architecto quasi repellendus, molestiae vitae adipisci repudiandae, consequatur libero fugiat ipsum atque quae.</p>
+                                <button class="btn btn-dark button-buy-now">BUY NOW >></button>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="slider-1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-md-6 d-flex flex-column justify-content-center ">
+                                <h1>Mac Book Pro</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eligendi ipsa cupiditate inventore accusantium quas quos architecto. Architecto quasi repellendus, molestiae vitae adipisci repudiandae, consequatur libero fugiat ipsum atque quae.</p>
+                                <button class="btn btn-dark button-buy-now">BUY NOW >></button>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="slider-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
 
 
-
-<!--Banner-->
-<!--Smart Phone -->
-<!--Laptop -->
-<!--Categories-->
+    <!--Smartphone-->
+    <div class="container smartphone">
+        <div class="row d-flex justify-content-between">
+            <h4>Smartphone</h4>
+            <h5 class="see-all">See All</h5>
+        </div>
+        <div class="card-deck ">
+            <div class="card">
+              <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column justify-content-between ">
+                <h5 class="card-title">iPhone 11 Pro</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h6><strong>$999</strong></h6>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-dark button-buy-now">BUY NOW >></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column justify-content-between ">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h6><strong>$999</strong></h6>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-dark button-buy-now">BUY NOW >></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column justify-content-between ">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <h6><strong>$999</strong></h6>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-dark button-buy-now">BUY NOW >></button>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!--Laptop-->
+    <div class="container laptop">
+        <div class="row d-flex justify-content-between">
+            <h4>Laptop</h4>
+            <h5 class="see-all">See All</h5>
+        </div>
+        <div class="card-deck">
+            <div class="card">
+              <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column justify-content-between ">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-dark button-buy-now">BUY NOW >></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column justify-content-between ">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-dark button-buy-now">BUY NOW >></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column justify-content-between ">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-dark button-buy-now">BUY NOW >></button>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!--Categories-->
+    <div class="container smartphone">
+        <div class="row d-flex justify-content-center">
+            <h4>Categories</h4>
+            
+        </div>
+    </div>
 
     
 
