@@ -1,10 +1,9 @@
 .container{
-    margin-bottom: 20px;
-
+    margin-bottom: 10px;
 }
 .banner{
     padding: 10px 40px;
-    background-color: grey;
+    background-color: whitesmoke;
 }
 .navbar-brand .img-fluid{
     height: 70px;
