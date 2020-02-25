@@ -33,3 +33,8 @@
     box-shadow: 1px 1px 5px gray;
     padding: 25px;
 }
+.title{
+    border-bottom: 8px solid gold;
+    padding-bottom: 5px;
+    
+}
